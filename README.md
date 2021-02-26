@@ -12,7 +12,9 @@ AutoApi系列：~~AutoApi(v1.0)~~、~~AutoApiSecret(v2.0)~~、~~AutoApiSR(v3.0)~
 * 保留1到2个稳定的简易版，防止萌新大范围报错
      * [AutoApi'X'](https://github.com/wangziyingwen/AutoApiP) ： 稳定版1
 
-***********************************************************************************************************************************
+-------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------
+
 2021.02.26
 https://blog.csdn.net/u010025179/article/details/106901560/
 
@@ -45,16 +47,19 @@ yum -y installgcc zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-deve
 
     2.安装pyenv包
 curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+
     3.将pyenv安装到系统环境变量中
 echo 'export PATH="/home/python/.pyenv/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
 echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile
 source ~/.bash_profile
+
     4.安装
 pyenv install 3.8.2  //pyenv install --list 查看可以安装的python版本
 我这里等了很久，不要以为死机了，等就行了
 Downloading Python-3.8.2.tar.xz...
 -> https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tar.xz
+
     5.配置系统使用的Python版本
 
 pyenv管理python版本的三个基础命令
